@@ -15,3 +15,7 @@ cat index.html | sed -n -e 's/<img src="\(\S*\)"/\1/p' | awk '{ print "http://sc
 wget -x -i extra.list
 
 ```
+
+```
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent http://schoolofma.org/programs
+```
