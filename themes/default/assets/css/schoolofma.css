@@ -7,7 +7,8 @@
 .tertiary-color {
   background-color: #5200c6 !important; }
 
-  
+.quaternary-color {
+  background-color: #000000 !important; }
 
 .primary-text {
   color: #4c60ff !important; }
@@ -919,6 +920,9 @@ section {
 
 .background-green {
   background-color: #009f45; }
+
+.background-dark {
+  background-color: #4646e0; }
 
 .background-purple {
   background-color: #5200c6; }
