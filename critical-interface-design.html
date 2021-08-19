@@ -451,7 +451,29 @@ warmth and humour if you please!</p>
                         Tickets for this class are currently available via <a class="" href="">Eventbrite</a>. If you would like to avoid Eventbrite fees, please <a href = "mailto: info@schoolofma.org">email us</a>  for direct payment options. We kindly ask that all “pay-what-you-can” students register through Eventbrite. Due to reduced staffing, we’re unable to handle specific payment requests for these registrations. 
 
                             
+<br>
+<br>
+<!-- Noscript content for added SEO -->
+<noscript><a href="https://www.eventbrite.com/e/critical-interface-design-tickets-167308886383" rel="noopener noreferrer" target="_blank"></noscript>
+<!-- You can customize this button any way you like -->
+<button id="eventbrite-widget-modal-trigger-167308886383" type="button">Buy Tickets</button>
+<noscript></a>Buy Tickets on Eventbrite</noscript>
 
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '167308886383',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-167308886383',
+        onOrderComplete: exampleCallback
+    });
+</script>
 
 
                     </p>
